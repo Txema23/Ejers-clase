@@ -4,5 +4,3 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {"Hello": "FastAPI"}
-
-#prueba
